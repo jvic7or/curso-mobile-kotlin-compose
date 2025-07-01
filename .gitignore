@@ -1,16 +1,16 @@
-# Compiled class file
+# === Arquivos da IDE ===
+.idea/
+*.iml
+
+# === Diretórios de compilação ===
+out/
+build/
+
+# === Arquivos de log e cache ===
+*.log
 *.class
 
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# === Pacotes e arquivamentos ===
 *.jar
 *.war
 *.nar
@@ -19,9 +19,12 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# === Logs de crash da JVM ===
 hs_err_pid*
 replay_pid*
 
-# Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
+# === Diretórios do plugin Kotlin Gradle ===
 .kotlin/
+
+# === Outros ===
+.DS_Store
